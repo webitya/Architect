@@ -1,0 +1,49 @@
+.homeVideoDiv {
+    width: 100%;
+    min-height: 70vh;
+    max-height: 71vh;
+    position: relative;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1; /* Adjust opacity if needed */
+}
+
+.overlayVideo {
+    background-color: rgba(255, 255, 255, 0.192);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .homeVideoDiv {
+        min-height: 250px;
+        max-height: 251px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    .homeVideoDiv {
+        min-height: 400px;
+        max-height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .homeVideoDiv {
+        min-height: 501px;
+        max-height: 600px;
+    }
+}

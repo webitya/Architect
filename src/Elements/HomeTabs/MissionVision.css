@@ -1,0 +1,50 @@
+/* Mission & Vision Tabs Container */
+.mission-vision-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ant Design Tabs Customization */
+  .ant-tabs-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ant-tabs-tab {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+  }
+  
+  .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #D4AF37; /* Gold accent color */
+  }
+  
+  .ant-tabs-ink-bar {
+    background-color: #D4AF37; /* Gold underline for active tab */
+  }
+  
+  /* Tab Content Styling */
+  .tab-content {
+    text-align: center;
+    padding: 20px 40px;
+  }
+  
+  .tab-content h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .tab-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  

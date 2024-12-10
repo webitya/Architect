@@ -1,0 +1,70 @@
+/* General Styling */
+
+.contact-section {
+    background-color: #f3f3f3;
+    padding-bottom: 50px;
+  }
+  
+  .luxury-banner {
+    background-image: url(./bgc2.jpg); /* Ensure the image path is correct */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+  }
+  
+  .lets-connect {
+    color: #d4af37;
+    font-size: 3rem;
+    padding:10px !important;
+    font-family: 'Playfair Display', serif; /* Premium font */
+  }
+  
+  .luxury-contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .luxury-contact-card {
+    background: #fafafa;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+  }
+  
+  .luxury-contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .luxury-contact-heading {
+    font-size: 1.5rem;
+    color: #d4af37; /* Gold color for premium look */
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+  }
+  
+  .luxury-contact-text {
+    font-size: 1.1rem;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .luxury-map-container {
+    margin-top: 50px;
+  }
+  
+  .luxury-map-iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,34 @@
+.cardsIcon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbbf24; /* A soft gradient for premium feel */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.singleCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.singleCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.homeCardSection {
+    background-color: #f3f4f644;
+    padding:20px;
+    position: relative;
+    top: -90px;
+}

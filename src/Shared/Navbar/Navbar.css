@@ -1,0 +1,154 @@
+:root {
+  --premium-gray: #7f8c8d;
+  --premium-gold: #d4af37;
+  --premium-darkGold: #c09326;
+  --premium-darkGray: #2c3e50;
+  --premium-blue: #2980b9;
+  --premium-red: #c0392b;
+  --premium-green: #27ae60;
+  --premium-pink: #e84393;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.HamburgerDiv {
+  display: none;
+
+}
+
+.hamburgerIcon {
+  color: var(--premium-pink) !important;
+  font-size: 22px !important;
+}
+
+.desktopMenu {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+ 
+}
+/* ============================== */
+/* .drawerNav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: start;
+  justify-content: start;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.drawerNav ul li {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+} */
+ /* Styling for the drawer navigation */
+.drawerNav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+/* Styling for each navigation item */
+.drawerNav ul li {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+/* Styling for links inside the drawer */
+.drawerNav ul li a {
+  color: #f0c674; /* Luxurious gold color */
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.drawerNav ul li a:hover {
+  color: #fff; /* Hover effect changes the color to white */
+}
+
+/* Custom button styling for booking appointment */
+.custom-button {
+  background-color: #f0c674; /* Gold background for the button */
+  color: #1a1a1a; /* Dark text color for contrast */
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #e5b759; /* Slightly darker gold on hover */
+  color: #fff; /* Text turns white on hover */
+}
+
+/* Styling for social media icons */
+.flex.gap-2 .Button {
+  background: none;
+  color: #f0c674; /* Luxurious gold color for the icons */
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.flex.gap-2 .Button:hover {
+  color: #fff; /* White on hover */
+}
+
+/* Contact details styling */
+.drawerNav ul li h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f0c674; /* Gold for labels */
+}
+
+.drawerNav ul li h1 span {
+  color: #fff; /* White for the contact text */
+}
+
+/* Address styling */
+.drawerNav ul li h1 p {
+  color: #ccc;
+}
+
+/* Icons with gold color */
+.text-premium-green, .text-premium-blue, .text-premium-red, .text-premium-darkGray, .text-premium-pink {
+  color: #f0c674; /* Gold color for all the icons */
+}
+
+/* ============================== */
+.navBarTop {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+.custom-button {
+  background: linear-gradient(to right, var(--premium-gold), var(--premium-darkGold)) !important;
+  color: white !important;
+  border: none !important;
+  font-size:12px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .HamburgerDiv {
+    display: block;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+}

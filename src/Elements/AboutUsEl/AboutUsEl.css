@@ -1,0 +1,265 @@
+/* Hero Section */
+.about-hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-shadow:5px 5px 8px rgba(0, 0, 0, 0.416); */
+  }
+  
+  .hero-title {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+    z-index: 2;
+    margin-bottom: 1rem; /* Add margin to separate from subtitle */
+  }
+  
+  .hero-subtitle {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #d9d9d9;
+    margin-top: 1rem;
+    z-index: 2;
+  }
+  
+  /* About Us Section */
+  .about-section {
+    padding: 6rem 2rem; /* Increase padding for breathing room */
+    background-color: #f4f4f2;
+    text-align: center; /* Center align all text within this section */
+  }
+  
+  .about-title {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    margin-bottom: 2rem; /* Space below the title */
+  }
+  
+  .about-description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: #7a7a7a;
+    margin-top: 1rem;
+    margin-bottom: 2rem; /* Add margin for better spacing */
+    max-width: 800px; /* Limit the width for readability */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .mission-title {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+  
+  .mission-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: #555555;
+    margin-top: 1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Luxury Team Section */
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem; /* Add space between title and team cards */
+  }
+  
+  .about-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    border: 2px solid #e5e5e5;
+    max-width: 400px; /* Decrease card width */
+    margin: 0 auto; /* Center cards */
+  }
+  
+  .about-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.2);
+    border-color: #c0b283; /* Luxurious border color on hover */
+  }
+  
+  .about-image {
+    width: 100%;
+    height: 200px; /* Decrease height */
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .about-card-content {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .about-card-content h3 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem; /* Decrease margin */
+  }
+  
+  .about-card-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .about-icon {
+    font-size: 2rem;
+    color: #c0b283;
+    margin-top: 1rem;
+  }
+  
+  /* Testimonials Section */
+  .testimonial-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .testimonial-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 600px; /* Limit width of testimonial cards */
+    margin: 0 auto; /* Center testimonials */
+  }
+  
+  .testimonial-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .testimonial-author {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem;
+    color: #c0b283;
+    margin-top: 1rem;
+  }
+ 
+  
+  @media (max-width: 480px) {
+    .testimonial-text {
+        font-size:0.7rem;
+    }
+    .testimonial-card {
+        padding:10px;
+      }
+   
+  }
+  /* Portfolio/Recent Projects Section */
+  .portfolio-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .portfolio-title {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .portfolio-card {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .portfolio-card img {
+    border-bottom: 2px solid #e5e5e5;
+  }
+  
+  .portfolio-card .ant-card-meta-title {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .portfolio-card .ant-card-meta-description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Call to Action Section */
+  .about-cta {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 3rem;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    max-width: 800px; /* Limit width for call to action */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-cta h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem; /* Add space between heading and paragraph */
+  }
+  
+  .about-cta p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Button */
+  .ant-btn-primary {
+    background-color: #c0b283;
+    border-color: #c0b283;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #a8926e;
+    border-color: #a8926e;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+    
+  
+  
+ 
+  
